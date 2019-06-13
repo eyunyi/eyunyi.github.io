@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eyunyi.github.io/"/>
-  <updated>2019-06-12T10:37:41.283Z</updated>
+  <updated>2019-06-12T10:47:40.998Z</updated>
   <id>http://eyunyi.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://eyunyi.github.io/2019/06/12/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8CSDN-markdown%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     <id>http://eyunyi.github.io/2019/06/12/欢迎使用CSDN-markdown编辑器/</id>
     <published>2019-06-12T10:37:46.315Z</published>
-    <updated>2019-06-12T10:37:41.283Z</updated>
+    <updated>2019-06-12T10:47:40.998Z</updated>
     
-    <content type="html"><![CDATA[<p>大家好我是Eyunyi</p>]]></content>
+    <content type="html"><![CDATA[<p>title: 这是我们公司<br>大家好我是Eyunyi</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;大家好我是Eyunyi&lt;/p&gt;
+        &lt;p&gt;title: 这是我们公司&lt;br&gt;大家好我是Eyunyi&lt;/p&gt;
 
       
     
