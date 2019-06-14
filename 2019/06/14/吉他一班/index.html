@@ -171,8 +171,24 @@
 
     </div>
     
-    
-  <div id="comment-container" class="comment-container"></div>
+    {% if page.comments %}
+  <div class="comments" id="comments"></div>
+    {% if (theme.valine and theme.valine.enable)%}
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/valine@1.1.6/dist/Valine.min.js"></script>
+    <script>
+        new Valine({
+            av: AV,
+            el: '.comments',
+            notify: false, // 邮件提醒 v1.1.4新增，下一步中有具体的邮箱设置
+            verify: false,
+            app_id: '{{ zU7kuO8tlfD9iuvaskRSfkMR-gzGzoHsz }}',
+            app_key: '{{ OON0aXU9crNYfzW2blVoiJgH }}',
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+        });
+    </script>
+    {% endif %}
+{% endif %}
 
   </article>
 </div></section>
@@ -206,11 +222,11 @@
     el: "#comment-container",
     appId: "zU7kuO8tlfD9iuvaskRSfkMR-gzGzoHsz",
     appKey: "OON0aXU9crNYfzW2blVoiJgH",
-    avatar: "mm",
-    placeholder: "随便说点什么叭～",
-    notify: false,
+    avatar: "",
+    placeholder: "",
+    notify: ,
     visitor: ,
-    pageSize: 10,
+    pageSize: ,
   });
 </script>
 
