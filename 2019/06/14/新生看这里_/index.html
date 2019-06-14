@@ -136,6 +136,22 @@
 
     <div class="article-navs">
       
+<nav class="card-container card-article-nav">
+  <div class="card-wrap">
+    
+      <div class="card-item">
+        <article>
+          
+          <a class="card-link article-nav-link" href="/2019/06/14/新生报到/"></a>
+          <div class="article-nav-caption">Newer</div>
+          <div class="article-nav-title">新生报到~</div>
+        </article>
+      </div>
+    
+    
+  </div>
+</nav>
+
     </div>
     
     
@@ -149,9 +165,6 @@
   <div class="footer-container">
     <p>&copy; 2019 <a href="/" target="_blank">eyunyi</a></p>
 
-    
-      <p id="hitokoto"></p>
-      <script src="https://v1.hitokoto.cn/?c=a&amp;encode=js&select=%23hitokoto" defer></script>
     
 
     
@@ -214,63 +227,6 @@
   }
 </script>
 
-
-<!-- 瀑布流 -->
-<script src="/lib/macy.js"></script>
-<script type="text/javascript">
-
-if (document.querySelector(".waterfall-container")) {
-  initCss()
-  initMacy(".waterfall-container")
-}
-
-function initMacy(selector) {
-  new Macy({
-    container: selector,
-    trueOrder: false,
-    waitForImages: false,
-    useOwnImageLoader: false,
-    mobileFirst: true,
-    columns: 1,
-    margin: {
-      y: 16,
-      x: '2%',
-    },
-    breakAt: {
-      1200: {
-        margin: {
-          x: 20
-        },
-        columns: 4
-      },
-      940: {
-        margin: {
-          x: 20
-        },
-        columns: 3
-      },
-      520: {
-        margin: {
-          x: 10
-        },
-        columns: 2
-      },
-      400: {
-        margin: {
-          x: 0
-        },
-        columns: 1
-      },
-    }
-  });
-}
-
-function initCss() {
-  let cssStyle = document.createElement("style")
-  cssStyle.innerText = `.waterfall-container p { display: block; border-radius: 4px; overflow: hidden; margin: 0; }`
-  document.head.appendChild(cssStyle);
-}
-</script>
 
 
 <!-- 图片预览 -->
