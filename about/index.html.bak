@@ -17,7 +17,7 @@
 
   
 
-  <title>吉他一班 | 河南小背篓艺术培训中心</title>
+  <title>关于 | 河南小背篓艺术培训中心</title>
 
   
 
@@ -73,7 +73,7 @@
   </div>
 </header>
 
-    <section id="main"><!-- 文章详情页 -->
+    <section id="main"><!-- 文章归档 -->
 
 <!-- banner container -->
 <div class="banner-container" style="background-image: url(https://qiniu.miiiku.xyz/src/images/banner.jpg)">
@@ -84,29 +84,18 @@
 
     
     
-
-    
-    
-
-    
-    
+      <h1 class="header-title"><a href="/archives/">归档</a></h1>
+      <h2 class="header-subtitle">共有2篇文章</h2>
     
 
     
     
-      <h1 class="header-title"><a href="/2019/06/14/吉他一班/">吉他一班</a></h1>
-      <h2 class="header-subtitle">
-        
-          
-          <!--
-          
-  <a href="javascript:;" class="article-date">
-    <time datetime="2019-06-14T06:51:04.000Z" itemprop="datePublished">2019-06-14 02:51:04</time>
-  </a>
 
-          -->
-        
-      </h2>
+    
+    
+    
+
+    
     
 
     
@@ -114,76 +103,66 @@
   </div>
 </div>
 
-<!-- 文章内容 -->
-
+<!-- post list container -->
 <div class="body-container">
-  <article id="article-content" class="main-container article-content zoom">
-    
-    
-
-    <div class="article-entry">
-      <p>学吉他报名一班</p>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th>价格</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>学费</td>
-<td>1600元</td>
-</tr>
-<tr>
-<td>吉他</td>
-<td>1200元</td>
-</tr>
-<tr>
-<td>资料</td>
-<td>100元</td>
-</tr>
-</tbody></table>
-<p>目前人数：8<br>剩余人数：2</p>
-
-    </div>
-
-    <div class="article-footer">
-      
-    </div>
-
-    <div class="article-navs">
-      
-<nav class="card-container card-article-nav">
-  <div class="card-wrap">
-    
-    
-      <div class="card-item">
-        <article>
+  <div class="main-container article-list">
+    <div class="card-container card-articles">
+      <div class="card-wrap">
+        
           
-          <a class="card-link article-nav-link" href="/2019/06/14/新生报到/"></a>
-          <div class="article-nav-caption">下一篇</div>
-          <div class="article-nav-title">新生报到</div>
-        </article>
+          <div class="card-item">
+            <article>
+              
+              
+                <a class="article-link" href="/2019/06/14/吉他一班/" itemprop="url"></a>
+              
+              <h2 class="article-title">吉他一班</h2>
+              <div class="article-meta">
+                <strong>eyunyi</strong>
+                <span>发布于</span>
+                
+  <a href="/2019/06/14/吉他一班/" class="article-date">
+    <time datetime="2019-06-14T06:51:04.000Z" itemprop="datePublished">2019-06-14</time>
+  </a>
+
+              </div>
+              <div class="article-category">
+                
+              </div>
+            </article>
+          </div>
+        
+          
+          <div class="card-item">
+            <article>
+              
+              
+                <a class="article-link" href="/2019/06/14/新生报到/" itemprop="url"></a>
+              
+              <h2 class="article-title">新生报到</h2>
+              <div class="article-meta">
+                <strong>eyunyi</strong>
+                <span>发布于</span>
+                
+  <a href="/2019/06/14/新生报到/" class="article-date">
+    <time datetime="2019-06-14T06:48:00.000Z" itemprop="datePublished">2019-06-14</time>
+  </a>
+
+              </div>
+              <div class="article-category">
+                
+              </div>
+            </article>
+          </div>
+        
       </div>
-    
-  </div>
-</nav>
-
     </div>
-    
-      <div class="comments" id="comments"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/valine@1.1.6/dist/Valine.min.js"></script>
-    <script>
-        new Valine({
-            app_id: '{{ zU7kuO8tlfD9iuvaskRSfkMR-gzGzoHsz }}',
-            app_key: '{{ OON0aXU9crNYfzW2blVoiJgH }}',
-            placeholder: '随便说点什么叭~'
-        });
-    </script>
+  </div>
+</div>
 
-  </article>
-</div></section>
+<!-- page container -->
+
+</section>
 
     <!-- footer container -->
 <footer id="footer" class="footer">
@@ -208,22 +187,6 @@
 
   
   
-<!-- valine 评论 -->
-<script type="text/javascript" src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script type="text/javascript" src="//unpkg.com/valine/dist/Valine.min.js"></script>
-<script type="text/javascript">
-  new Valine({
-    el: "#comment-container",
-    appId: "zU7kuO8tlfD9iuvaskRSfkMR-gzGzoHsz",
-    appKey: "OON0aXU9crNYfzW2blVoiJgH",
-    avatar: "",
-    placeholder: "",
-    notify: ,
-    visitor: ,
-    pageSize: ,
-  });
-</script>
-
 
 <!-- dplayer 视频 -->
 <link rel="stylesheet" href="/lib/DPlayer.min.css">
