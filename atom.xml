@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>河南小背篓文化传媒有限公司</title>
+  <title>eyunyi</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://eyunyi.github.io/"/>
-  <updated>2019-06-23T02:20:09.978Z</updated>
-  <id>http://eyunyi.github.io/</id>
+  <link href="/"/>
+  <updated>2019-06-26T08:57:52.575Z</updated>
+  <id>/</id>
   
   <author>
     <name>eyunyi</name>
@@ -17,59 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>吉他一班</title>
-    <link href="http://eyunyi.github.io/2019/06/14/%E5%90%89%E4%BB%96%E4%B8%80%E7%8F%AD/"/>
-    <id>http://eyunyi.github.io/2019/06/14/吉他一班/</id>
-    <published>2019-06-14T06:51:04.000Z</published>
-    <updated>2019-06-23T02:20:09.978Z</updated>
-    
-    <content type="html"><![CDATA[<p>学吉他报名一班</p><table><thead><tr><th>项目</th><th>价格</th></tr></thead><tbody><tr><td>学费</td><td>1600元</td></tr><tr><td>吉他</td><td>1200元</td></tr><tr><td>资料</td><td>100元</td></tr></tbody></table><p>目前人数：8<br>剩余人数：2</p>]]></content>
+    <title>新生报到</title>
+    <link href="/2018/12/12/%E5%90%89%E4%BB%96%E4%B8%80%E7%8F%AD/"/>
+    <id>/2018/12/12/吉他一班/</id>
+    <published>2018-12-12T14:16:01.000Z</published>
+    <updated>2019-06-26T08:57:52.575Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;学吉他报名一班&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;项目&lt;/th&gt;
-&lt;th&gt;价格&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;学费&lt;/td&gt;
-&lt;td&gt;1600元&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;吉他&lt;/td&gt;
-&lt;td
-      
+      一个神奇的地方
     
     </summary>
     
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="吉他" scheme="/tags/%E5%90%89%E4%BB%96/"/>
+    
+      <category term="报名" scheme="/tags/%E6%8A%A5%E5%90%8D/"/>
     
   </entry>
   
   <entry>
     <title>新生报到</title>
-    <link href="http://eyunyi.github.io/2019/06/14/%E6%96%B0%E7%94%9F%E6%8A%A5%E5%88%B0/"/>
-    <id>http://eyunyi.github.io/2019/06/14/新生报到/</id>
-    <published>2019-06-14T06:48:00.000Z</published>
-    <updated>2019-06-24T10:23:32.328Z</updated>
-    
-    <content type="html"><![CDATA[<p>大家好！<br>我是eyunyi<br>暑假报名学吉他开始拉<br>联系地址：<br>河南省郑州市中原区须水镇元通大厦802室<br>暑假报名学吉他开始拉<br>有小姐姐和小哥哥陪你哦<br>暑假报名学吉他开始拉<br>重要的事情说3遍</p>]]></content>
+    <link href="/2018/12/12/%E6%96%B0%E7%94%9F%E6%8A%A5%E5%88%B0/"/>
+    <id>/2018/12/12/新生报到/</id>
+    <published>2018-12-12T14:16:01.000Z</published>
+    <updated>2019-06-26T08:51:51.325Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;大家好！&lt;br&gt;我是eyunyi&lt;br&gt;暑假报名学吉他开始拉&lt;br&gt;联系地址：&lt;br&gt;河南省郑州市中原区须水镇元通大厦802室&lt;br&gt;暑假报名学吉他开始拉&lt;br&gt;有小姐姐和小哥哥陪你哦&lt;br&gt;暑假报名学吉他开始拉&lt;br&gt;重要的事情说3遍&lt;/p&gt;
-
-      
+      一个神奇的地方
     
     </summary>
     
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="吉他" scheme="/tags/%E5%90%89%E4%BB%96/"/>
+    
+      <category term="报名" scheme="/tags/%E6%8A%A5%E5%90%8D/"/>
     
   </entry>
   
