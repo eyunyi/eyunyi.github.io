@@ -1,0 +1,169 @@
+---
+title: about
+date: 2018-12-12 22:14:36
+keywords: 关于Q&A
+description: 
+comments: false
+photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/about.jpg
+---
+{% raw %}
+<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[格调艺术中心Q&A]</div>
+<div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
+  <center>
+  <p>
+  </p>
+  <h4>
+  与&nbsp;<ruby>
+  格调客服&nbsp;<rp>
+  （</rp>
+  <rt>
+  学生家长</rt>
+  <rp>
+  ）</rp>
+  </ruby>
+  对话中...</h4>
+  <p>
+  </p>
+  </center>
+  <bot-ui></botui>
+</div>
+<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+<script src="https://unpkg.com/botui/build/botui.min.js"></script>
+<script>
+function bot_ui_ini() {
+    var botui = new BotUI("hello-mashiro");
+    botui.message.add({
+        delay: 800,
+        content: "Hi,路过的朋友~👋"
+    }).then(function () {
+        botui.message.add({
+            delay: 1100,
+            content: "这里是格调艺术中心"
+        }).then(function () {
+            botui.message.add({
+                delay: 1100,
+                content: "一个非常带感的吉他乐园~"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1600,
+                    action: [{
+                        text: "然后呢？ 😃",
+                        value: "sure"
+                    }, {
+                        text: "少废话！ 🙄",
+                        value: "skip"
+                    }]
+                }).then(function (a) {
+                    "sure" == a.value && sure();
+                    "skip" == a.value && end()
+                })
+            })
+        })
+    });
+    var sure = function () {
+            botui.message.add({
+                delay: 600,
+                content: "😘"
+            }).then(function () {
+                secondpart()
+            })
+        },
+        end = function () {
+            botui.message.add({
+                delay: 600,
+                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+            })
+        },
+        secondpart = function () {
+            botui.message.add({
+                delay: 1500,
+                content: "我们的地址在，河南省郑州市中原区须水镇元通大厦802室~"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1500,
+                    content: "找不到的话可以百度地图哦~"
+                }).then(function () {
+                    botui.message.add({
+                        delay: 1200,
+                        content: "我们的老师，课时时长，定价都可以来亲自咨询哦~"
+                    }).then(function () {
+                        botui.message.add({
+                            delay: 1500,
+                            content: "关注我们的公众号，网站，小程序都可以找到我们~"
+                        }).then(function () {
+                            botui.message.add({
+                                delay: 1500,
+                                content: "其他的也可以打电话呢~"
+                            }).then(function () {
+                                botui.message.add({
+                                    delay: 1800,
+                                    content: "哈哈哈哈，等我一下，待会再聊！"
+                                }).then(function () {
+                                    botui.action.button({
+                                        delay: 1100,
+                                        action: [{
+                                            text: "有什么活动呢？ 🤔",
+                                            value: "why-mashiro"
+                                        }]
+                                    }).then(function (a) {
+                                        thirdpart()
+                                    })
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+        },
+        thirdpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "首次报名学员享受课时5折优惠一次。"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "只有一次机会么？ 🤔",
+                        value: "why-cat"
+                    }]
+                }).then(function (a) {
+                    fourthpart()
+                })
+            })
+        },
+        fourthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "对新生来说是一次长期活动呢~ "
+            }).then(function () {
+                botui.message.add({
+                    delay: 1100,
+                    content: "格调艺术中心体验课券5张。"
+                }).then(function () {
+                    botui.action.button({
+                        delay: 1500,
+                        action: [{
+                            text: "还有什么吗？(ง •_•)ง",
+                            value: "why-domain"
+                        }]
+                    }).then(function (a) {
+                        fifthpart()
+                    })
+                })
+            })
+        },
+        fifthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "emmmm，还真有~芳媛国际美容会所500元项目现金券，中心录音棚免费录制1首专属乐曲（独唱、独奏、弹唱均可）。"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1600,
+                    content: "那么，仔细看看我们的内容吧？ ^_^"
+                })
+            })
+        } 
+}
+bot_ui_ini()
+</script>
+{% endraw %}
