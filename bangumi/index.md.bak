@@ -1,0 +1,23 @@
+---
+layout: bangumi
+title: bangumi
+comments: false
+date: 2019-02-10 21:32:48
+keywords:
+description:
+bangumis:
+  - img: 'http://pt2ly2s2i.bkt.clouddn.com/dushuailaoshi.jpg',
+      title: '吉他老师杜帅',
+      status: '已学完',
+      progress: 100,
+      jp: '演示视频',
+      time: '上课时间: 2018-02-24 SUN.',
+      desc: '小班课3至5人，单课时45分钟，送练习指导60分钟，198元每课时，1对1精品课，单人授课单课时45分钟，送练习指导30分钟，298元每课时。
+  - img: 'http://pt2ly2s2i.bkt.clouddn.com/dushuailaoshi.jpg',
+      title: '吉他老师杜帅',
+      status: '已学完',
+      progress: 100,
+      jp: '演示视频',
+      time: '上课时间: 2018-02-24 SUN.',
+      desc: '小班课3至5人，单课时45分钟，送练习指导60分钟，198元每课时，1对1精品课，单人授课单课时45分钟，送练习指导30分钟，298元每课时。
+---
