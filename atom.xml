@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="www.hnxbl.club/"/>
   <updated>2019-07-06T15:35:04.225Z</updated>
-  <id>/</id>
+  <id>www.hnxbl.club/</id>
   
   <author>
     <name>eyunyi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>新人必看</title>
-    <link href="/2019/06/12/%E6%96%B0%E7%94%9F%E6%8A%A5%E5%88%B0/"/>
-    <id>/2019/06/12/新生报到/</id>
+    <link href="www.hnxbl.club/2019/06/12/%E6%96%B0%E7%94%9F%E6%8A%A5%E5%88%B0/"/>
+    <id>www.hnxbl.club/2019/06/12/新生报到/</id>
     <published>2019-06-12T14:16:01.000Z</published>
     <updated>2019-07-06T15:35:04.225Z</updated>
     
@@ -31,12 +31,12 @@
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="www.hnxbl.club/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="吉他" scheme="/tags/%E5%90%89%E4%BB%96/"/>
+      <category term="吉他" scheme="www.hnxbl.club/tags/%E5%90%89%E4%BB%96/"/>
     
-      <category term="报名" scheme="/tags/%E6%8A%A5%E5%90%8D/"/>
+      <category term="报名" scheme="www.hnxbl.club/tags/%E6%8A%A5%E5%90%8D/"/>
     
   </entry>
   
