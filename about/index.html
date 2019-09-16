@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+
+  
+
+  
+    <meta name="author" content="eyunyi">
+  
+
+  
+
+  
+
+  <title>about | 河南小背篓文化传媒有限公司</title>
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <!-- header -->
+<header class="header">
+  <div class="header-container ">
+    <nav class="header-navbar">
+      <div class="header-navbar-left">
+        <h1 class="header-navbar-logo">
+          <a href="/">
+            
+              <img src="http://pt2ly2s2i.bkt.clouddn.com/xbl%281%29.png" alt="河南小背篓文化传媒有限公司">
+            
+          </a>
+        </h1>
+      </div>
+      <div class="header-navbar-right">
+        <div class="header-navbar-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="header-navbar-list">
+          
+            <li class="header-navbar-item"><a href="/">首页</a></li>
+          
+            <li class="header-navbar-item"><a href="/archives">档案</a></li>
+          
+            <li class="header-navbar-item"><a href="/categories">学科</a></li>
+          
+            <li class="header-navbar-item"><a href="/tags">标签</a></li>
+          
+            <li class="header-navbar-item"><a href="/about">关于</a></li>
+          
+            <li class="header-navbar-item"><a href="/guestbook">留言</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <section id="main"><!-- 页面详情页 -->
+
+<!-- banner container -->
+<div class="banner-container" style="background-image: url(https://qiniu.miiiku.xyz/src/images/banner.jpg)">
+  <div class="banner-inner">
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+      <h1 class="header-title"><a href="/about/index.html">about</a></h1>
+      
+    
+  </div>
+</div>
+
+<!-- 自定义页面 -->
+
+<div class="body-container">
+  
+  
+  <article class="main-container article-content">
+    <div class="article-entry">
+<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[Q&A]</div>
+<div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
+  <center>
+  <p>
+  </p>
+  <h4>
+  与&nbsp;<ruby>
+  格调客服&nbsp;<rp>
+  （</rp>
+  <rt>
+  学生家长</rt>
+  <rp>
+  ）</rp>
+  </ruby>
+  对话中...</h4>
+  <p>
+  </p>
+  </center>
+  <bot-ui>
+</bot-ui></div>
+<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+<script src="https://unpkg.com/botui/build/botui.min.js"></script>
+<script>
+function bot_ui_ini() {
+    var botui = new BotUI("hello-mashiro");
+    botui.message.add({
+        delay: 800,
+        content: "Hi,路过的朋友~👋"
+    }).then(function () {
+        botui.message.add({
+            delay: 1100,
+            content: "这里是格调艺术中心"
+        }).then(function () {
+            botui.message.add({
+                delay: 1100,
+                content: "一个非常带感的吉他乐园~"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1600,
+                    action: [{
+                        text: "然后呢？ 😃",
+                        value: "sure"
+                    }, {
+                        text: "少废话！ 🙄",
+                        value: "skip"
+                    }]
+                }).then(function (a) {
+                    "sure" == a.value && sure();
+                    "skip" == a.value && end()
+                })
+            })
+        })
+    });
+    var sure = function () {
+            botui.message.add({
+                delay: 600,
+                content: "😘"
+            }).then(function () {
+                secondpart()
+            })
+        },
+        end = function () {
+            botui.message.add({
+                delay: 600,
+                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+            })
+        },
+        secondpart = function () {
+            botui.message.add({
+                delay: 1500,
+                content: "我们的地址在，河南省郑州市中原区须水镇元通大厦802室~"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1500,
+                    content: "找不到的话可以百度地图哦~"
+                }).then(function () {
+                    botui.message.add({
+                        delay: 1200,
+                        content: "我们的老师，课时时长，定价都可以来亲自咨询哦~"
+                    }).then(function () {
+                        botui.message.add({
+                            delay: 1500,
+                            content: "关注我们的公众号，网站，小程序都可以找到我们~"
+                        }).then(function () {
+                            botui.message.add({
+                                delay: 1500,
+                                content: "其他的也可以打电话呢~"
+                            }).then(function () {
+                                botui.message.add({
+                                    delay: 1800,
+                                    content: "哈哈哈哈，等我一下，待会再聊！"
+                                }).then(function () {
+                                    botui.action.button({
+                                        delay: 1100,
+                                        action: [{
+                                            text: "有什么活动呢？ 🤔",
+                                            value: "why-mashiro"
+                                        }]
+                                    }).then(function (a) {
+                                        thirdpart()
+                                    })
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+        },
+        thirdpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "首次报名学员享受课时5折优惠一次。"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "只有一次机会么？ 🤔",
+                        value: "why-cat"
+                    }]
+                }).then(function (a) {
+                    fourthpart()
+                })
+            })
+        },
+        fourthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "对新生来说是一次长期活动呢~ "
+            }).then(function () {
+                botui.message.add({
+                    delay: 1100,
+                    content: "格调艺术中心体验课券5张。"
+                }).then(function () {
+                    botui.action.button({
+                        delay: 1500,
+                        action: [{
+                            text: "还有什么吗？(ง •_•)ง",
+                            value: "why-domain"
+                        }]
+                    }).then(function (a) {
+                        fifthpart()
+                    })
+                })
+            })
+        },
+        fifthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "emmmm，还真有~芳媛国际美容会所500元项目现金券，中心录音棚免费录制1首专属乐曲（独唱、独奏、弹唱均可）。"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1600,
+                    content: "那么，仔细看看我们的内容吧？ ^_^"
+                })
+            })
+        } 
+}
+bot_ui_ini()
+</script>
+</div>
+  </article>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</section>
+
+    <!-- footer container -->
+<footer id="footer" class="footer">
+  <div class="footer-container">
+    <p>&copy 河南小背篓文化传播有限公司; 2019</p>
+    <p>技术支持 by eyunyi</p>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <!-- 尾部其他内容 -->
+
+<!-- analytics -->
+
+
+
+
+
+
+
+  
+  
+
+<!-- dplayer 视频 -->
+<link rel="stylesheet" href="/lib/DPlayer.min.css">
+<script src="/lib/DPlayer.min.js"></script>
+<script type="text/javascript">
+  const dplayer = document.querySelectorAll(".dplayer");
+  dplayer && initDPlayer(dplayer);
+  function initDPlayer(els) {
+    let elsArr = Array.from(els);
+    elsArr.forEach(el => {
+      let url = el.dataset.url;
+      let cover = el.dataset.cover;
+      new DPlayer({
+        container: el,
+        video: { url: url, pic: cover },
+        theme: "#b7daff",
+        autoplay: false,
+        loop: false,
+        mutex: true,
+      });
+    });
+  }
+</script>
+
+
+
+<!-- 图片预览 -->
+<script src="/lib/zoom.min.js"></script>
+<script>
+  document.querySelector(".zoom") && zoom(".zoom", {
+    margin: 15,
+    padding: 15,
+    radius: 5,
+    specify: "",
+    filter: "gallery",
+  });
+</script>
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>
