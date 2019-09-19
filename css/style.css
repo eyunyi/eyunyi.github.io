@@ -33,7 +33,7 @@ keygen,
 select,
 button {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.6;
   -webkit-appearance: none;
   border: 0;
@@ -44,7 +44,7 @@ button {
   padding: 0;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.6;
   color: #444;
   word-break: break-word;
@@ -142,13 +142,13 @@ button {
 .archive-article .archive-article-inner .archive-article-date {
   position: relative;
   z-index: 100;
-  font-size: 16px;
+  font-size: 8px;
 }
 .archive-article .archive-article-inner .archive-article-title {
   position: relative;
   z-index: 100;
   margin: 0;
-  font-size: 18px;
+  font-size: 10px;
   overflow: hidden;
 }
 .article {
@@ -168,7 +168,7 @@ button {
   color: #ff6347;
 }
 .article-header .article-meta {
-  font-size: 16px;
+  font-size: 8px;
 }
 .article-header .article-meta,
 .article-header .article-meta a {
@@ -286,7 +286,7 @@ button {
 .article-body .caption {
   display: block;
   margin: 10px 0 20px;
-  font-size: 16px;
+  font-size: 8px;
   color: #777;
   text-align: center;
 }
@@ -331,7 +331,7 @@ button {
   text-align: left;
   border-left: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
-  font-size: 16px;
+  font-size: 8px;
 }
 .article-nav {
   margin: 80px 0 40px;
@@ -356,7 +356,7 @@ button {
   text-align: center;
 }
 .article-nav .article-nav-link-wrap .article-nav-title {
-  font-size: 16px;
+  font-size: 8px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -459,7 +459,7 @@ button {
   padding: 40px;
   background: #333;
   color: #999;
-  font-size: 16px;
+  font-size: 8px;
   text-align: center;
 }
 .site-info a {
@@ -484,18 +484,18 @@ button {
   position: relative;
   z-index: 100;
   margin: 20px 0;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1;
   font-weight: lighter;
   text-align: center;
 }
 @media screen and (min-width: 700px) {
   .site-header .site-title {
-    font-size: 54px;
+    font-size: 30px;
   }
 }
 .site-header .site-subtitle {
-  font-size: 18px;
+  font-size: 10px;
   font-weight: normal;
 }
 .site-header .site-header-background {
@@ -538,7 +538,7 @@ button {
   width: 100%;
   background: rgba(0,0,0,0.1);
   color: #fff;
-  font-size: 16px;
+  font-size: 8px;
 }
 .site-search .search-form .search-form-input:focus,
 .site-search .search-form .search-form-input:active {
@@ -580,7 +580,7 @@ button {
 .article-content pre,
 .article-content code {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  font-size: 14px;
+  font-size: 6px;
 }
 .article-content code {
   background: rgba(0,0,0,0.08);
@@ -627,7 +627,7 @@ button {
   padding-right: 20px;
 }
 .article-content .highlight .line {
-  height: 23.400000000000002px;
+  height: 13px;
 }
 .article-content .gist {
   margin: 0;
@@ -746,7 +746,7 @@ pre .javascript .function {
   padding: 10px 15px;
   border: 1px solid #e1e1e1;
   color: #999;
-  font-size: 18px;
+  font-size: 10px;
   border-radius: 8px;
 }
 .alert {
@@ -782,7 +782,7 @@ pre .javascript .function {
 .site-nav ul li a {
   display: block;
   padding: 0 10px;
-  font-size: 16px;
+  font-size: 8px;
   text-transform: uppercase;
   color: #999;
 }
@@ -873,7 +873,7 @@ pre .javascript .function {
 .site-widget .widget ul li span {
   margin-left: 5px;
   color: #999;
-  font-size: 16px;
+  font-size: 8px;
 }
 .site-widget .widget .category-list .category-list-child {
   padding-left: 20px;
@@ -885,7 +885,7 @@ pre .javascript .function {
 }
 .site-widget .widget-title {
   margin: 0 0 20px 0;
-  font-size: 16px;
+  font-size: 8px;
   font-weight: normal;
   color: #999;
 }
