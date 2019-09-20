@@ -73,7 +73,7 @@ button {
     margin: 0 20px 20px 0;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .archives {
     margin: 0 0 20px -20px;
   }
@@ -98,7 +98,7 @@ button {
     background: transparent;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .archive-article {
     width: 33.3%;
   }
@@ -128,7 +128,7 @@ button {
     opacity: 0.1;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .archive-article .archive-article-inner {
     height: 200px;
   }
@@ -154,7 +154,7 @@ button {
 .article {
   margin: 40px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .article {
     margin: 40px 0;
   }
@@ -214,7 +214,7 @@ button {
     right: 40px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .article-header .article-meta .article-tag-list {
     right: 0;
   }
@@ -342,7 +342,7 @@ button {
     margin-right: 40px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .article-nav {
     margin-left: 0;
     margin-right: 0;
@@ -400,7 +400,7 @@ button {
     margin-right: 40px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .article-comments {
     margin-left: 0;
     margin-right: 0;
@@ -416,7 +416,7 @@ button {
     margin: -60px -40px 40px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .article-gallery {
     margin: -60px 0 40px;
   }
@@ -489,7 +489,7 @@ button {
   font-weight: lighter;
   text-align: center;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .site-header .site-title {
     font-size: 30px;
   }
@@ -822,7 +822,7 @@ pre .javascript .function {
   text-align: center;
   list-style: none;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .site-widget {
     margin: 0 -20px;
     padding-left: 0;
@@ -850,7 +850,7 @@ pre .javascript .function {
   padding-top: 0;
   border-top-width: 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
   .site-widget .widget {
     float: left;
     width: 33%;
